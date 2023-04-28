@@ -1,0 +1,260 @@
+:root {
+    --color-blue: #2196f3;
+    --color-white: #ffffff;
+    --color-black: #212121;
+    --colombia-grey: #757575;
+    --bg-hero: #2f303a;
+    --bg-button: #2196f3; 
+}
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+body {
+ font-family: 'Roboto', 'Arial', sans-serif;
+ background-color: var(--color-white);
+ color: var(--color-white);
+ font-size: 14px;
+ letter-spacing: 0.03em;
+}
+li {
+ list-style: none;
+}
+.section {
+ padding-top: 94px;
+ padding-bottom: 94px; 
+}
+
+/* section header */
+
+.container {
+ width: 1200px;
+ margin: 0 auto;
+ padding: 0px 15px;
+}
+
+.page-header-container {
+ display: flex;
+ align-items: center;
+ text-align: center;
+ justify-content: space-between;
+ background: #ffffff;
+}
+.page-header-navbar {
+ display: flex;
+}
+.logo {
+ font-family: 'Raleway';
+ font-style: normal;
+ font-weight: 700;
+ font-size: 26px;
+ line-height: 31px;
+ color: #2196f3;
+ text-decoration: none;
+}
+.page-header-navmenu {
+ display: flex;
+ align-items: center;
+ font-style: normal;
+ font-weight: 500;
+ font-size: 14px;
+ letter-spacing: 0.02em;
+ color: #212121;
+ text-decoration: none;
+}
+
+
+.page-header-navmenu-item {
+ /* margin-left: 93px; */
+}
+.page-header-link {
+ /* height: 16px;
+ margin: 0px; */
+ font-style: normal;
+ font-weight: 500;
+ font-size: 14px;
+ letter-spacing: 0.02em;
+ color: #757575;
+ text-decoration: none;
+}
+.page-header-link:hover,
+.page-header-link:focus,
+.page-header-itemlink:hover,
+.page-header-itemlink:focus {
+ color: #2196f3;
+}
+.page-header-contactmenu {
+ display: flex;
+ align-items: center;
+ font-style: normal;
+ font-weight: 500;
+ font-size: 14px;
+ letter-spacing: 0.02em;
+ color: #757575;
+ text-decoration: none;
+}
+.page-header-contactmenu-item {
+ margin-left: auto;
+}
+.page-header-itemlink {
+ font-style: normal;
+ font-weight: 500;
+ font-size: 14px;
+ letter-spacing: 0.02em;
+ color: #757575;
+ text-decoration: none;
+}
+
+/* section hero */
+
+.hero {
+ background-color: var(--bg-hero);
+ padding:200px 0px;
+}
+
+.hero-container {
+ text-align: center;
+}
+.hero-title {
+ font-family: 'Roboto';
+ font-style: normal;
+ font-weight: 900;
+ font-size: 44px;
+ line-height: 60px;
+ text-align: center;
+ letter-spacing: 0.06em;
+ text-transform: uppercase;
+ color: var(--color-white);
+}
+.hero-button-primary {
+ justify-content: center;
+ align-items: center;
+ padding: 10px 32px;
+ font-style: normal;
+ font-weight: 700;
+ font-size: 16px;
+ color: var(--color-white);
+ background: var(--bg-button);
+ box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  
+}
+
+/* section features */
+
+.features-description-container {
+ display: flex;
+ padding: 95px 30px;
+}
+
+.features .features-title {
+ font-style: normal;
+ font-weight: 700;
+ font-size: 14px;
+ color: var(--color-black);
+}
+.features .features-parraf {
+ font-style: normal;
+ font-weight: 400;
+ font-size: 14px;
+ color: var(--colombia-grey);
+}
+
+.what-we-do {
+ display: flex;
+
+}
+
+/* section album */
+
+.album .album-title {
+ font-style: normal;
+ font-weight: 500;
+ font-size: 16px;
+ line-height: 1.18px;
+ color: #212121;
+}
+.albun .album-description {
+ font-style: normal;
+ font-weight: 400;
+ font-size: 16px;
+ line-height: 1.18px;
+ color: #757575;
+}
+
+/* section footer */
+
+.footbar {
+ background: #2f303a;
+}
+.logo {
+ font-family: 'Raleway';
+ font-style: normal;
+ font-weight: 700;
+ font-size: 26px;
+ color: #2196f3;
+}
+.location-footbar {
+ font-style: normal;
+ font-weight: 400;
+ font-size: 14px;
+ line-height: 1.71px;
+ color: #ffffff;
+ text-decoration: none;
+}
+.contact-footbar {
+ font-style: normal;
+ font-weight: 400;
+ font-size: 14px;
+ line-height: 1.71px;
+ color: rgba(255, 255, 255, 0.6);
+ text-decoration: none;
+}
+
+.contact-footbar:hover,
+.contact-footbar:focus {
+ color: #2196f3;
+}
+
+/* seccion portafolio */
+.hidden {
+ display: none;
+}
+.portafolio-button {
+ display: flex;
+ align-items: center;
+ border: 1px;
+ font-weight: 500;
+ font-size: 16px;
+ color: #212121;
+ background: #f5f4fa;
+ border-radius: 4px;
+}
+.portafolio-button-section {
+ margin-right: 10px;
+}
+
+.button:hover,
+.button:focus {
+ cursor: pointer;
+ background: #2196f3;
+ color: #f5f4fa;
+}
+.portafolio .portafolio-title {
+ font-family: 'Roboto';
+ font-style: normal;
+ font-weight: 700;
+ font-size: 18px;
+ letter-spacing: 0.06em;
+ color: #212121;
+}
+.portafolio .portafolio-description {
+ font-family: 'Roboto';
+ font-style: normal;
+ font-weight: 400;
+ font-size: 16px;
+ color: #757575;
+}
+.logo-footer {
+ text-decoration: none;
+}
